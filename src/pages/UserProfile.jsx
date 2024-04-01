@@ -56,14 +56,14 @@ const UserProfile = () => {
     <div className="user-profile">
       <div className="user-profile__header">
         <img src={profilePicture} alt="Profile" className="user-profile__picture" />
-        <h1 className="user-profile__title">About Us</h1>
+        <h1 className="user-profile__title">Politik: An International Relations Dept. Jadavpur University monthly</h1>
       </div>
       <div className="user-profile__content">
         <p className="user-profile__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium sapien ac leo hendrerit, at congue elit efficitur. Vivamus eget mauris id ligula vestibulum feugiat.
+        The Department of International Relations at Jadavpur University is a unique establishment in eastern India, founded in 1956. It is located at the main campus of the university and focuses on various aspects of national and international politics, with a primary emphasis on strategic and economic matters. The department offers undergraduate, postgraduate, and M.Phil. programs, with faculty members engaged in teaching and research on topics like internal and external security concerns of India and South Asia, bilateral relations, foreign policy, ethnicity, society, human rights, and environmental issues. Additionally, the department has a Centre for Refugee Studies and offers degrees in Political Science and International Relations at both the B.A. and M.A. levels. The faculty members specialize in diverse areas such as International Relations theory, security, peace, conflict, Indian Foreign Policy, South Asian Politics, and more. 
         </p>
         <p className="user-profile__description">
-          Nam eget odio nec ex consequat lacinia. Sed nec ullamcorper eros. Donec euismod risus ut turpis rhoncus, sit amet varius libero feugiat.
+        The School of International Relations and Strategic Studies at Jadavpur University, established in 1987, promotes interdisciplinary programs of advanced study and research. It aims to provide a platform for scholars to collaborate on multi-disciplinary issues that cannot be addressed within a single department. The School organizes lectures, seminars, workshops, and sponsors studies on specific areas and issues. Noteworthy figures associated with the School include Lt. General Ashok K. Chaudhuri, General Sankar Roychowdhury, and various professors from different universities who have delivered lectures on a range of topics. Ongoing research projects at the School cover areas like India's Foreign Trade Policy, WTO, and the Print Media
         </p>
       </div>
     </div>

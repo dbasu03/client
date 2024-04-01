@@ -171,9 +171,9 @@ section{
 
 .nav__politik {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 1.2rem; /* Adjusted font size */
-  font-weight: bold; /* Bold text */
-  margin: 0 auto; /* Centers horizontally */
+  font-size: 1.2rem; 
+  font-weight: bold; 
+  margin: 0 auto; 
 }
 
 nav{
