@@ -135,7 +135,12 @@ section{
   display: block;
 }
 
-
+.nav__politik {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem; /* Adjusted font size */
+  font-weight: bold; /* Bold text */
+  margin-left: 1px;
+}
 
 nav{
   width: 100vw;
@@ -189,11 +194,19 @@ footer{
   transition: var(--transition);
 }
 
+.footer__copyright{
+  text-align: center;
+  border-top: 2px solid var(--color-gray-700);
+  padding: 1rem;
+  color: black;
+  font-weight: 300;
+}
+
 /*HOME
 Posts*/
-.posts__container{
+.posts{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 4rem;
 }
 
@@ -204,6 +217,8 @@ Posts*/
   padding-bottom: 2rem;
   transition: var(--transition);
   cursor: default;
+  
+  
 }
 
 .post:hover{
@@ -243,6 +258,14 @@ Posts*/
   border-radius: var(--radius-2);
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  .posts {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for mobile screens */
+  }
+}
+
+
 
 /*            REGISTER AND LOGIN        */
 .form{

@@ -14,6 +14,9 @@ const Footer = () => {
             <li><Link to="/posts/categories/Crossword">Crossword</Link></li>
 
         </ul>
+        <div className="footer__copyright">
+          <small>All Rights Reserved &copy; Copyright, Politik.</small>
+        </div>
     </footer>
   )
 }
