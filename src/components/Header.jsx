@@ -22,7 +22,7 @@ const Header = () => {
             </Link>
             <span className='nav__politik'>Politik</span>
             {isNavShowing && <ul className="nav__menu">
-                <li><Link to ="/profile/sdfsdf" onClick={closeNavHandler}>Profile</Link></li>
+                <li><Link to ="/profile/sdfsdf" onClick={closeNavHandler}>About</Link></li>
                 <li><Link to ="/create" onClick={closeNavHandler}>Create Post</Link></li>
                 <li><Link to ="/authors" onClick={closeNavHandler}>Authors</Link></li>
                 <li><Link to ="/logout" onClick={closeNavHandler}>Logout</Link></li>

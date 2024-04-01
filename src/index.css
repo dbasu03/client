@@ -127,6 +127,40 @@ section{
   color: var(--color-white);
 }
 
+/*        USER PROFILE(ABOUT)       */
+.user-profile {
+  padding: 20px;
+}
+
+.user-profile__header {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile__picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+.user-profile__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.user-profile__content {
+  margin-top: 20px;
+}
+
+.user-profile__description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
 
 /*         NAVBAR          */
 
@@ -139,7 +173,7 @@ section{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.2rem; /* Adjusted font size */
   font-weight: bold; /* Bold text */
-  margin-left: 1px;
+  margin: 0 auto; /* Centers horizontally */
 }
 
 nav{

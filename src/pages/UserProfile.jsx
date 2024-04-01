@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+/*import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Avatar from '../images/Avatar.jpg'
 import {FaEdit} from 'react-icons/fa'
@@ -44,4 +44,30 @@ const UserProfile = () => {
   )
 }
 
-export default UserProfile
+export default UserProfile*/
+
+//THIS IS THE ABOUT SECTION WITH THE NAME USER_PROFILE. THIS IS ACTUALLY ABOUT SECTION
+
+import React from 'react';
+import profilePicture from '../images/about_IR.jpg';
+
+const UserProfile = () => {
+  return (
+    <div className="user-profile">
+      <div className="user-profile__header">
+        <img src={profilePicture} alt="Profile" className="user-profile__picture" />
+        <h1 className="user-profile__title">About Us</h1>
+      </div>
+      <div className="user-profile__content">
+        <p className="user-profile__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium sapien ac leo hendrerit, at congue elit efficitur. Vivamus eget mauris id ligula vestibulum feugiat.
+        </p>
+        <p className="user-profile__description">
+          Nam eget odio nec ex consequat lacinia. Sed nec ullamcorper eros. Donec euismod risus ut turpis rhoncus, sit amet varius libero feugiat.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default UserProfile;
