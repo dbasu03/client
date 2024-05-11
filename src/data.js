@@ -1,5 +1,6 @@
 import img1 from './images/dummypostimg1.jpg';
 import img2 from './images/dummypostimg2.jpg';
+import img3 from './images/dummypostimg3.jpg';
 
 
 let DUMMY_POSTS =[
@@ -21,7 +22,7 @@ let DUMMY_POSTS =[
     },
     {
         id:'3',
-        Thumbnail: img1,
+        Thumbnail: img3,
         category: 'articles',
         title: 'Title 3',
         desc: 'This is the description',

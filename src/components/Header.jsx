@@ -23,7 +23,7 @@ const Header = () => {
             <span className='nav__politik'>Politika</span>
             {isNavShowing && <ul className="nav__menu">
                 <li><Link to ="/profile/sdfsdf" onClick={closeNavHandler}>About</Link></li>
-                <li><Link to ="/create" onClick={closeNavHandler}>Create Post</Link></li>
+                <li><Link to ="/create" onClick={closeNavHandler}>Publish</Link></li>
                 <li><Link to ="/authors" onClick={closeNavHandler}>Authors</Link></li>
                 <li><Link to ="/logout" onClick={closeNavHandler}>Logout</Link></li>
             </ul>}
