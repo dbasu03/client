@@ -25,7 +25,7 @@ const Header = () => {
                 <li><Link to ="/profile/sdfsdf" onClick={closeNavHandler}>About</Link></li>
                 <li><Link to ="/create" onClick={closeNavHandler}>Publish</Link></li>
                 <li><Link to ="/authors" onClick={closeNavHandler}>Authors</Link></li>
-                <li><Link to ="/logout" onClick={closeNavHandler}>Logout</Link></li>
+                <li><Link to ="/logout" onClick={closeNavHandler}>Contact</Link></li>
             </ul>}
             <button className="nav__toggle-btn" onClick={() => setIsNavShowing(!isNavShowing)}>
                 {isNavShowing ? <AiOutlineClose/>:<FaBars/>}
