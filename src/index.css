@@ -171,7 +171,7 @@ section{
 
 .nav__politik {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 1.2rem; 
+  font-size: 1.8rem; 
   font-weight: bold; 
   margin: 0 auto; 
 }
@@ -298,6 +298,41 @@ Posts*/
       grid-template-columns: repeat(1, 1fr); /* 1 column for mobile screens */
   }
 }
+
+
+/*            POST DETAIL               */
+.post-detail__thumbnail {
+  display: flex;
+  justify-content: left;
+}
+
+.post-detail__thumbnail img {
+  max-width: 150%; /* Ensure the image doesn't exceed its container */
+  max-height: 150%; /* Ensure the image doesn't exceed its container */
+  width: auto;
+  height: auto;
+}
+
+.post-detail {
+  padding: 20px;
+}
+
+.post-detail__container {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.post-detail h1 {
+  font-family: 'Times New Roman', Times, serif; /* Apply a cool Roman font */
+  font-size: 2.5rem; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Add spacing below the title */
+}
+
+.post-detail p {
+  line-height: 1.6; /* Improve readability with proper line height */
+  margin-bottom: 20px; /* Add spacing between paragraphs */
+}
+
 
 
 

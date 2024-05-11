@@ -20,7 +20,7 @@ const Header = () => {
             <Link to = "/" className='nav__logo' onClick={closeNavHandler}>
                 <img src={logo} alt="Logo"/>
             </Link>
-            <span className='nav__politik'>Politik</span>
+            <span className='nav__politik'>Politika</span>
             {isNavShowing && <ul className="nav__menu">
                 <li><Link to ="/profile/sdfsdf" onClick={closeNavHandler}>About</Link></li>
                 <li><Link to ="/create" onClick={closeNavHandler}>Create Post</Link></li>

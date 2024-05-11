@@ -1,10 +1,11 @@
-import Thumbnail from './images/dummypostimg1.jpg';
+import img1 from './images/dummypostimg1.jpg';
+import img2 from './images/dummypostimg2.jpg';
 
 
 let DUMMY_POSTS =[
     {
         id:'1',
-        Thumbnail: Thumbnail,
+        Thumbnail: img2,
         category: 'papers',
         title: 'Title 1',
         desc: 'This is the description',
@@ -12,17 +13,17 @@ let DUMMY_POSTS =[
     },
     {
         id:'2',
-        Thumbnail: Thumbnail,
+        Thumbnail: img1,
         category: 'papers',
-        title: 'Title 1',
+        title: 'Title 2',
         desc: 'This is the description',
         authorID:3
     },
     {
         id:'3',
-        Thumbnail: Thumbnail,
+        Thumbnail: img1,
         category: 'articles',
-        title: 'Title 1',
+        title: 'Title 3',
         desc: 'This is the description',
         authorID:3
     },
