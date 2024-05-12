@@ -56,7 +56,7 @@ const UserProfile = () => {
     <div className="user-profile">
       <div className="user-profile__header">
         <img src={profilePicture} alt="Profile" className="user-profile__picture" />
-        <h1 className="user-profile__title">Politik: An International Relations Dept. Jadavpur University monthly</h1>
+        <h1 className="user-profile__title">Politika - by Department of International Relations, Jadavpur University</h1>
       </div>
       <div className="user-profile__content">
         <p className="user-profile__description">
